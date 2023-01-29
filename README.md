@@ -29,7 +29,7 @@ maxify-smbv1:
     restart: unless-stopped   
     environment:
       - NETBIOS_NAME=paperless_smb
-      - WORKGROUP=MANNERT
+      - WORKGROUP=YOURWORKGROUP
       - SHARE1=consume
       - SHARE1_COMMENT="Paperless consume smbv1 share"
     volumes:
